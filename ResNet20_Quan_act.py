@@ -9,7 +9,7 @@ import time
 import matplotlib as mpl
 mpl.use('Agg')
 import matplotlib.pyplot as plt
-from solve import W_Quan_betalaw, W_Quan_betalaw_new, W_Quan_normal, W_Quan_Kumaraswamy, W_learn_clip_beta_n2u, grad_a, A_Quan_betalaw_new
+from solve import W_Quan_betalaw_new, A_Quan_betalaw_new
 import os
 import resnet20
 from thop import profile
